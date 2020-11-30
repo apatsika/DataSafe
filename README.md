@@ -21,7 +21,6 @@ To successfully complete this workshop it is assumed you have the following
 - Create Private Endpoint
 - Register a Target Database
 - [Provision Auditing](provision-audit.md)
-- Security and User Assessment
-- Sensitive Data Discovery
-- Data Masking
+- [Assess Database Configuration and Users](assessments.md)
+- [Discover and Mask Sensitive Data](discovery.md)
 - Required Artifacts
