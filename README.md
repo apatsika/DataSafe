@@ -1,4 +1,4 @@
-# Data Safe with On-premise Oracle Data Sources
+# Data Safe for On-premise Oracle Data Sources
 
 ## Introduction
 
@@ -7,3 +7,11 @@ Data Safe is a unified security control center for your Oracle Databases. Data S
 ## Objectives
 
 This workshop comprises various aspects of Data Security. So follow the given sequence to enhance your skills on utilizing Data Safe with on-premise databases.
+
+Setup VPN
+Register a Target Database
+Security and User Assessment
+Sensitive Data Discovery
+Data Masking
+Auditing and Reporting
+Required Artifacts
