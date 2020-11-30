@@ -12,7 +12,7 @@ This workshop comprises various aspects of Data Security. So follow the given se
 - Required IAM Policies
 - Setup IPSec VPN
 - Register a Target Database
-- [Auditing and Reporting](provision-audit)
+- [Provision Auditing](provision-audit.md)
 - Security and User Assessment
 - Sensitive Data Discovery
 - Data Masking
