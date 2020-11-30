@@ -18,8 +18,8 @@ To successfully complete this workshop it is assumed you have the following
 
 ## Table of Contents
 
-- Create Private Endpoint
-- Register a Target Database
+- [Create Private Endpoint](private-endpoint.md)
+- [Register a Target Database](target-registration.md)
 - [Provision Auditing](provision-audit.md)
 - [Assess Database Configuration and Users](assessments.md)
 - [Discover and Mask Sensitive Data](discovery.md)
