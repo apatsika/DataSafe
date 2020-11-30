@@ -16,7 +16,7 @@ To successfully complete this workshop it is assumed you have the following
 - IAM  policies allowing the use of Data Safe and the creation of Private Endpoints
 - The following Database Versions 12c, 18c, 19c ...
 
-# Table of Contents
+## Table of Contents
 
 - Register a Target Database
 - [Provision Auditing](provision-audit.md)
