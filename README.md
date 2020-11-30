@@ -18,6 +18,7 @@ To successfully complete this workshop it is assumed you have the following
 
 ## Table of Contents
 
+- Create Private Endpoint
 - Register a Target Database
 - [Provision Auditing](provision-audit.md)
 - Security and User Assessment
