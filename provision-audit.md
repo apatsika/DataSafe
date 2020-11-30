@@ -1,11 +1,11 @@
 # Provision Audit and Alert Policies
 
 ## Introduction
-This lab shows you how to provision audit and alert policies on your Autonomous Database by using the Activity Auditing feature in Oracle Data Safe.
+This lab shows you how to provision audit and alert policies on your Oracle Database by using the Activity Auditing feature in Oracle Data Safe.
 
 Estimated Lab Time: 20 minutes
 
-### Objectives
+## Objectives
 
 In this lab, you'll:
 
@@ -20,7 +20,7 @@ To complete this lab, you need the following:
 
 - An Oracle Cloud account
 - Access to an Oracle Data Safe service
-- Access to an Autonomous Database, sample data for Oracle Data Safe loaded into the database, and the Activity Auditing feature enabled on your database
+- Access to an Oracle Database, sample data for Oracle Data Safe loaded into the database, and the Activity Auditing feature enabled on your database
 - Oracle Data Safe privileges to use the Activity Auditing feature on your database
 
 ### Assumptions
