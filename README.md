@@ -12,8 +12,8 @@ This workshop comprises various aspects of Data Security. So follow the given se
 - Required IAM Policies
 - Setup IPSec VPN
 - Register a Target Database
+- [Auditing and Reporting](provision-audit)
 - Security and User Assessment
 - Sensitive Data Discovery
 - Data Masking
-- Auditing and Reporting
 - Required Artifacts
