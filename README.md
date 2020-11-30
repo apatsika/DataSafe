@@ -8,9 +8,16 @@ Data Safe is a unified security control center for your Oracle Databases. Data S
 
 This workshop comprises various aspects of Data Security. So follow the given sequence to enhance your skills on utilizing Data Safe with on-premise databases. You can register an on-premises Oracle database with Oracle Data Safe by using an Oracle Data Safe private endpoint. Prior to registration, you need to create an Oracle Data Safe private endpoint in your Oracle Cloud Infrastructure (OCI) tenancy. FastConnect/IPSec VPN is required to connect your on-premise location to the Oracle Cloud. In this lab, you will learn how to setup an IPSec VPN connection to an on-premise data source.
 
+## Assumptions
 
-- Required IAM Policies
-- Setup IPSec VPN
+To successfully complete this workshop it is assumed you have the following 
+
+- On-premise location with IPSec VPN connectivity to OCI 
+- IAM  policies allowing the use of Data Safe and the creation of Private Endpoints
+- The following Database Versions 12c, 18c, 19c ...
+
+# Table of Contents
+
 - Register a Target Database
 - [Provision Auditing](provision-audit.md)
 - Security and User Assessment
