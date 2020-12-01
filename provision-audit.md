@@ -44,25 +44,23 @@ To complete this lab, you need the following:
 
 2. On the **Select Targets for Auditing** page, select the check box for your target database, and then click **Continue**.
 
-  ![Select Targets for Auditing page](images/select-targets-for-auditing-page.png)
+![Select Targets for Auditing page](images/select-audit.png)
 
 3. On the **Retrieve Audit Policies** page, select the check box for your target database, and then click **Retrieve** to retrieve the currently deployed audit policies from your database.
 
-  ![Retrieve Audit Policies page](images/retrieve-audit-policies-page.png)
+  ![Retrieve Audit Policies page](images/retrieve-audit.png)
 
 4. Wait until a green check mark is displayed in the **Retrieval Status** column, and then click **Continue**. The check mark means that all of the audit policies are successfully retrieved.
 
-  ![Green check mark under Retrieval Status](images/retrieval-status-green-checkmark.png)
+![Green check mark under Retrieval Status](images/retrieve-status.png)
 
 5. On the **Review and Provision Audit and Alert Policies** page, review the types of audit policies already enabled on your target database, and then click your target database name to provision more policies.
 
     - The check mark under **Additional Policies** means that your target database has predefined audit policies enabled on it.
 
-    - **CIS** under **Compliance Standards** means that your target database has the **Center for Internet Security (CIS) Configuration** audit policy enabled on it.
+    - Currently, there are no basic, admin activity, or user activity audit policies provisioned on your target database, compliance standards nor are there any alert policies.
 
-    - Currently, there are no basic, admin activity, or user activity audit policies provisioned on your target database, nor are there any alert policies.
-
-    ![Review and Provision Audit and Alert Policies page with pre-enabled audit policies](images/review-and-provision-audit-and-alert-policies-page.png)
+![Review and Provision Audit and Alert Policies page with pre-enabled audit policies](images/review-audit-target-name.png)
 
 6. In the **Edit Policies** dialog box, the **Audit Policies** tab shows that the following **Basic Auditing** and **Admin Activity Auditing** policies are selected by default. Oracle recommends that you create and enable (provision) these policies. They are not provisioned by default.
       - Critical Database Activity
@@ -70,17 +68,9 @@ To complete this lab, you need the following:
       - Database Schema Changes (DDL)
       - Admin Activity
 
-    ![Audit Policies tab in the Edit Policies dialog box](images/audit-policies-tab.png)
+![Audit Policies tab in the Edit Policies dialog box](images/review-audit-edit-policies.png)
 
-7. Expand **Custom Policies**.
-
-    - If a custom policy is selected, it means that it is already created and enabled on your target database. There are two such policies: `EMPSEARCH_SELECT_USAGE_BY_PETE` and `EMP_RECORD_CHANGES`.
-
-    - If a custom policy is not selected, it means that you can select it to enable it on your target database. There is one such policy: `APP_USER_NOT_APP_SERVER`.
-
-    ![Custom policies](images/custom-audit-policies.png)
-
-8. Expand **Oracle Pre-defined Policies** to view the list of Oracle predefined audit policies available on your target database. By default, the following policies are provisioned on an Autonomous Transaction Processing database:
+7. Expand **Oracle Pre-defined Policies** to view the list of Oracle predefined audit policies available on your target database. By default, the following policies are provisioned on an Oracle database:
     - `ORA_ACCOUNT_MGMT`
     - `ORA_DATABASE_PARAMETER`
     - `ORA_SECURECONFIG`
@@ -89,16 +79,12 @@ To complete this lab, you need the following:
     - `ORA_RAS_POLICY_MGMT`
     - `ORA_RAS_SESSION_MGMT`
     - `ORA_LOGON_FAILURES`
-    - `SYS_USER_ACTIONS`
-    - `COMMON_USER`
-    - `ADB_ADMIN_AUDIT`
-    - `ADB_MANDATORY_AUDIT`
 
-    ![Oracle Pre-defined policies](images/oracle-predefined-policies.png)
+![Oracle Pre-defined policies](images/additional-audit-policies.png)
 
-9. Notice that the **Center for Internet Security (CIS) Configuration** policy is created and enabled by default.
+8. Notice that the **Center for Internet Security (CIS) Configuration** policy is created and enabled by default.
 
-  ![Center for Internet Security (CIS) Configuration policy](images/cis-policy-enabled.png)
+![Center for Internet Security (CIS) Configuration policy](images/audit-compliance-standards.png)
 
 10. Click the **Alert Policies** tab.
 
@@ -111,7 +97,7 @@ To complete this lab, you need the following:
     - User Entitlement Changes
     - Database Schema Changes
 
-  ![Selected alert polices](images/alert-policies.png)
+![Selected alert polices](images/alert-policies.png)
 
 12. On the **Review and Provision Audit and Alert Policies** page, wait for check marks to appear under all audit policy types, except for **All User Activity**, and then click **Continue**.
 
