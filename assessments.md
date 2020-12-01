@@ -18,8 +18,8 @@ In this lab, you'll:
 
 To complete this lab, you need to have the following:
 
-- An Oracle Cloud account
-- Access to an Autonomous Database, sample data for Oracle Data Safe loaded into the database, and the Activity Auditing feature enabled on the database
+- An Oracle Cloud Infrastructure (OCI) account
+- Access to an Oracle Database, sample data for Oracle Data Safe loaded into the database, and the Activity Auditing feature enabled on the database
 - Access to an Oracle Data Safe service
 - Privileges to use the Activity Auditing feature on your database
 - Audit collection started on your target database in Oracle Data Safe.
