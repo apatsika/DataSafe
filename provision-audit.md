@@ -3,7 +3,7 @@
 ## Introduction
 This lab shows you how to provision audit and alert policies on your Oracle Database by using the Activity Auditing feature in Oracle Data Safe.
 
-Estimated Lab Time: 20 minutes
+Estimated Lab Time: **20 minutes**
 
 ## Objectives
 
@@ -18,7 +18,7 @@ In this lab, you'll:
 
 To complete this lab, you need the following:
 
-- An Oracle Cloud account
+- An Oracle Cloud Infrastructure (OCI) account
 - Access to an Oracle Data Safe service
 - Access to an Oracle Database, sample data for Oracle Data Safe loaded into the database, and the Activity Auditing feature enabled on your database
 - Oracle Data Safe privileges to use the Activity Auditing feature on your database
@@ -26,7 +26,7 @@ To complete this lab, you need the following:
 ### Assumptions
 
 - You have a browser tab signed in to the Oracle Cloud Infrastructure Console. If not, please refer to the [Prerequisites](?lab=prerequisites) for this workshop.
-- You completed the [Provision and Register and Autonomous Database](?lab=lab-1-provision-register-autonomous) lab in this workshop.
+- You have created a Private Endpoint and registered your database as a target with Data Safe.
 
 ## **STEP 1**: Sign in to the Oracle Data Safe Console
 
