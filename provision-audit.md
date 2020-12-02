@@ -101,7 +101,7 @@ To complete this lab, you need the following:
 
 12. On the **Review and Provision Audit and Alert Policies** page, wait for check marks to appear under all audit policy types, except for **All User Activity**, and then click **Continue**.
 
-  ![Audit policies enabled](images/audit-policies-enabled.png)
+![Audit policies enabled](images/provision-alert-policies.png)
 
 13. On the **Start Audit Collection** page, observe the following defaults:
 
@@ -110,11 +110,11 @@ To complete this lab, you need the following:
     - The auto purge feature is not enabled by default.
     - You need to configure an audit collection start date.
 
-  ![Start Audit Collection page](images/start-audit-collection-page.png)
+![Start Audit Collection page](images/start-audit-collection.png)
 
 14. In the **Collect Audit Data From** column, click the calendar widget, configure a start date of 12 months ago, and then click **Done**.
 
-  ![Collection start date](images/collection-start-date.png)
+![Collection start date](images/pick-audit-date.png)
 
 15. Wait for the **To Be Collected**, **Collected**, and **Total** columns to populate, review their values, and then click **Start** to start collecting audit data. Don't worry if your numbers are different than those shown in the screenshot below.
 
@@ -122,17 +122,17 @@ To complete this lab, you need the following:
     - The **Collected** column shows the number of audit records already collected for the current month for the target database (includes audit data collected from all the audit trails for the target database). This value helps you to determine whether you are going to exceed your monthly quota of one million records.
     - The **Total** column totals the **To Be Collected** and **Collected** values for a target database. This value tells you the overall number of audit records you are going to collect for a target database for the current month.
 
-  ![To Be Collected, Collected, and Total columns](images/to-be-collected-data.png)
+![To Be Collected, Collected, and Total columns](images/start-audit-collection.png)
 
 16. In the **Start Audit Collection** dialog box, click **Start** to confirm that you want to start the `UNIFIED_AUDIT_TRAIL`.
 
-  ![Start Audit Collection dialog box](images/start-audit-collection-dialog-box.png)
+![To Be Collected, Collected, and Total columns](images/start-audit-collection-2.png)
 
 17. Wait for the message at the top of the page, which states that the `UNIFIED_AUDIT_TRAIL` is successfully created.
 
 18. Click **Done**. You are directed to the **Audit Trails** page. From the **Audit Trails** page, you can manage all of the audit trails for your target databases. 
 
-   ![Audit Trails page](images/audit-trails-page.png)
+![To Be Collected, Collected, and Total columns](images/audit-trails.png)
 
 19. Observe that the **Collection State** column value changes from  `STARTING` to `COLLECTING`, and then to `IDLE`. Collection takes approximately 2 minutes.
 
@@ -140,25 +140,17 @@ To complete this lab, you need the following:
 
 1. In the **Collection State** column on the **Audit Trails** page, click **COLLECTING** or **IDLE** if the audit data is collected.
 
-  ![Collection State column](images/idle.png)
+![Audit Trails page](images/audit-trails-idle.png)
 
 2. In the **Trail Log** dialog box, review the logs, and then click **X** to close the dialog box.
 
-  ![Trail Log dialog box](images/trail-log-dialog-box.png)
+![Trail Log dialog box](images/audit-trail-log.png)
 
-## **STEP 4**: Enable a custom audit policy on your target database
+## **STEP 4**: Review Dashboard
 
-1. Click the **Audit Policies** tab.
+- Click the **Home** tab and review the dashboard. Notice that the **All Activity**, **Admin Activity**, **Open Alerts**, **Feature Usage**, and **Audit Trails** charts now have data.
 
-2. On the **Review and Provision Audit and Alert Polices** page, click the name of your target database.
-
-3. In the **Edit Policies** dialog box, expand **Custom Policies**, select the `APP_USER_NOT_APP_SERVER` unified auditing policy to enable it, and then click **Provision**.
-
-  ![Select the APP_USER_NOT_APP_SERVER check box](images/app-user-not-app-server.png)
-
-4. Click the **Home** tab and review the dashboard. Notice that the **All Activity**, **Admin Activity**, **Open Alerts**, **Feature Usage**, and **Audit Trails** charts now have data.
-
-  ![Dashboard after provisioning audit and alert policies](images/dashboard-post-audit-alert-policy-provisioning.png)
+  ![Dashboard after provisioning audit and alert policies](images/audit-dashboard.png)
 
 You may now proceed to the next lab.
 
@@ -171,7 +163,7 @@ You may now proceed to the next lab.
 ## Acknowledgements
 
 * **Author** - Jody Glover, Principal User Assistance Developer, Database Development
-* **Last Updated By/Date** - Jody Glover, November 3, 2020
+* **Updated** - Aubrey Patsika, Senior Cloud Engineer
 
 ## Need Help?
 Please submit feedback or ask for help using our [Data Safe Community Support Forum]( https://community.oracle.com/tech/developers/categories/data-safe). Please click the **Log In** button and login using your Oracle Account. Click the **Ask A Question** button to the left to start a *New Discussion* or *Ask a Question*.  Please include your workshop name and lab name.  You can also include screenshots and attach files.  Engage directly with the author of the workshop.
