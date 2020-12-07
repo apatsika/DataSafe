@@ -1,9 +1,9 @@
 # Assess Database Configurations and Users
 
 ## Introduction
-This lab shows you how to assess database configurations and users in your Autonomous Database by using the Security Assessment and User Assessment features in Oracle Data Safe.
+This lab shows you how to assess database configurations and users in your Database by using the Security Assessment and User Assessment features in Oracle Data Safe.
 
-Estimated Lab Time: 20 minutes
+Estimated Lab Time: **20 minutes**
 
 ### Objectives
 
@@ -20,7 +20,7 @@ In this lab, you'll:
 To complete this lab, you need to have the following:
 
 - An Oracle Cloud account
-- Access to an Autonomous Database, sample data for Oracle Data Safe loaded into the database, and the Activity Auditing feature enabled on the database
+- Access to a On-premise Database, sample data for Oracle Data Safe loaded into the database, and the Activity Auditing feature enabled on the database
 - Access to an Oracle Data Safe service
 - Privileges to use the Activity Auditing feature on your database
 - Audit collection started on your target database in Oracle Data Safe.
