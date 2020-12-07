@@ -60,7 +60,7 @@ You can use Security Assessment to evaluate the current security state of your t
 
 2. On the **Security Assessment** page, select the check box for your target database, and then click **Schedule Periodic Assessment**.
 
-  ![Security Assessment page](images/schedule-security-assessment-job.png)
+![Security Assessment page](images/periodic-assessment.png)
 
 3. In the **Schedule Assessment** dialog box, configure the schedule for every Sunday at 11:00 PM:
 
@@ -72,7 +72,7 @@ You can use Security Assessment to evaluate the current security state of your t
 
     d) Click **Schedule**. A confirmation messages states that the scheduled periodic job is successful.
 
-    ![Schedule every Sunday](images/schedule-every-sunday.png)
+![Schedule every Sunday](images/select-date-assessment.png)
 
 
 4. Deselect the check box for the target database, and select it again.
@@ -84,7 +84,7 @@ You can use Security Assessment to evaluate the current security state of your t
 7. When the job is finished, review the counts for high risk, medium risk, and low risk findings. The job generates a **Comprehensive Assessment** report.
 
 
-  ![Security Assessment risk numbers](images/security-assessment-risk-numbers.png)
+![Security Assessment risk numbers](images/security-assessment-result.png)
 
 
 ## **STEP 3**: Analyze the security assessment results

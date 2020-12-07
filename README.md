@@ -10,11 +10,11 @@ This workshop comprises various aspects of Data Security. So follow the given se
 
 ## Assumptions
 
-To successfully complete this workshop it is assumed you have the following 
+To successfully complete this workshop it is assumed you have the following
 
-- On-premise location with IPSec VPN connectivity to OCI 
-- IAM  policies allowing the use of Data Safe and the creation of Private Endpoints
-- The following Database Versions 12c, 18c, 19c ...
+- IPSec VPN connectivity from on-premise data center to the Oracle Cloud
+- OCI IAM  policies allowing the use of Data Safe and the creation of Private Endpoints
+- The following Oracle Database Versions 11g, 12c, 18c, 19c ...
 
 ## Table of Contents
 
