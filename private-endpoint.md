@@ -29,3 +29,11 @@ If your DB system has a private IP address, you need to create a private endpoin
 - (Optional)Select a network security group. The following screenshot shows you an example configuration for a private endpoint:
 
 **IMAGE HERE**
+
+## Step 2: Update the Related Security List and Network Security Group
+
+After creating the private endpoint and before registering the DB system with Oracle Data Safe, you need to update the related security list and network security group (if implemented) for your database VCN to allow traffic from the private endpoint IP address to the DB system. This step is required so that Oracle Data Safe can connect to your DB system. The following diagram illustrates an example of how to configure a security list.
+
+- Ingress for the database: The database (on port 1521) can receive incoming traffic from the private endpoint's private IP address (from any port).
+
+**IMAGE HERE**

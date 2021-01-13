@@ -24,4 +24,3 @@ To successfully complete this workshop it is assumed you have the following
 - [Provision Auditing](auditing.md)
 - [Assess Database Configuration and Users](assessments.md)
 - [Discover and Mask Sensitive Data](discovery.md)
-- Required Artifacts
