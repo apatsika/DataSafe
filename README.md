@@ -18,7 +18,7 @@ To successfully complete this workshop it is assumed you have the following
 
 ## Table of Contents
 
-- [Connect to OCI with IPSecVPN](networking.md)
+- [Connecting to OCI](networking.md)
 - [Create Private Endpoint](private-endpoint.md)
 - [Register a Target Database](target-registration.md)
 - [Provision Auditing](auditing.md)
