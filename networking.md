@@ -43,3 +43,5 @@ VPN Connect in Oracle Cloud Infrastructure is a site-to-site IPSec virtual priva
 ![Select Data Safe](images/create-oc.png)
 
 6. Click Create On-Premises Connector. The on-premises connector is created and listed in the table. The initial life-cycle state of the on-premises connector is set to INACTIVE.
+
+![Select Data Safe](images/oc-inactive.png)
