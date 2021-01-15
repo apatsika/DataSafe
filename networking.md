@@ -1,6 +1,6 @@
-# Connecting to OCI
+# Connecting to OCI using Data Connector
 
-There are various ways by which you can connect your on-premises location to Oracle Cloud Infrastructure OCI. These include FastConnect, IPSec VPN, and the Oracle Data Safe Connector.
+There are various ways by which you can connect your on-premises location to Oracle Cloud Infrastructure OCI. These include FastConnect, IPSec VPN, and the Oracle Data Safe Connector. Using Oracle Data Safe's on-premises connector is an easy and convenient way to connect Oracle Data Safe to your on-premises Oracle database without needing FastConnect or VPN Connect.
 
 ## FastConnect
 
@@ -14,8 +14,32 @@ VPN Connect in Oracle Cloud Infrastructure is a site-to-site IPSec virtual priva
 
 [Learn more about IPSec VPN](https://www.ateam-oracle.com/vpn-connect-simpe-implementation-part-12)
 
-## Data Safe Connector
+## **STEP 1**: Sign in to the Oracle Data Safe Console
 
-Using Oracle Data Safe's on-premises connector is an easy and convenient way to connect Oracle Data Safe to your on-premises Oracle database without needing FastConnect or VPN Connect.
+1. If you are already signed in to the Oracle Data Safe Console, click the **Oracle Data Safe** tab in your browser.
 
-[Data Safe Connector Documentation](https://docs.oracle.com/en-us/iaas/data-safe/doc/register-onpremises-oracle-databases-using-oracle-data-safe-onpremises-connector.html#GUID-24F31744-23D7-45ED-8573-86AA5056A1D3)
+2. If you are not signed in to the Oracle Data Safe Console, do the following:
+
+    a) Click the browser tab named **Oracle Cloud Infrastructure**, and sign in to the Console if needed.
+
+    b) From the navigation menu, select **Data Safe**. The **Overview** page for the Oracle Data Safe service is displayed.
+
+    c) Click **Service Console**. The **Home** tab in the Oracle Data Safe Console is displayed.
+
+## **STEP 2**: Create an On-premise connector
+
+1. Select Data Safe from the navigation menu
+
+![Select Data Safe](images/data-safe-menu.png)
+
+2. Under Connectivity Options, click On-Premises Connectors.
+3. On the right, click Create On-Premises Connector. The Create On-Premises Connector page is displayed.
+
+![Select Data Safe](images/on-premise-connector-page.png)
+
+4. Enter a name for the on-premises connector.
+5. (Optional) Enter a description for the on-premises connector.
+
+![Select Data Safe](images/create-oc.png)
+
+6. Click Create On-Premises Connector. The on-premises connector is created and listed in the table. The initial life-cycle state of the on-premises connector is set to INACTIVE.
