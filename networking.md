@@ -35,13 +35,51 @@ VPN Connect in Oracle Cloud Infrastructure is a site-to-site IPSec virtual priva
 2. Under Connectivity Options, click On-Premises Connectors.
 3. On the right, click Create On-Premises Connector. The Create On-Premises Connector page is displayed.
 
-![Select Data Safe](images/on-premise-connector-page.png)
+![Create On-premise Connector](images/on-premise-connector-page.png)
 
 4. Enter a name for the on-premises connector.
 5. (Optional) Enter a description for the on-premises connector.
+6. Click Create On-Premises Connector. The on-premises connector is created and listed in the table.
 
-![Select Data Safe](images/create-oc.png)
+![On-premise Connector basic Info](images/create-oc.png)
 
-6. Click Create On-Premises Connector. The on-premises connector is created and listed in the table. The initial life-cycle state of the on-premises connector is set to INACTIVE.
+7. The initial life-cycle state of the on-premises connector is set to INACTIVE.
 
 ![Select Data Safe](images/oc-inactive.png)
+
+## **STEP 3**: Download the Install Bundle for the On-Premises Connector
+
+You can download the install bundle for the on-premises connector from the Connector Detail page in the Oracle Data Safe service.
+
+1. From the Data Safe page in Oracle Cloud Infrastructure, click On-Premises Connectors.
+
+2. Click the on-premises connector that you created. The **Download Install Bundle** dialog box is displayed.
+
+![Select Data Safe](images/download-install-bundle.png)
+
+3. Enter a password for the install bundle, confirm it, and then click Download.
+4. Keep this password on hand as you need it later when you install the on-premises connector on a host on your network.
+5. The install bundle is downloaded to your browser's default download location.
+6. Unzip the bunddle and run the following command
+
+```
+python setup.py install --connector-port=1560
+
+```
+
+7. At the prompt, enter the password that you created when you downloaded the install bundle.
+The on-premises connector is installed in the current directory and automatically started. The status for the on-premises connector in the Oracle Data Safe service in Oracle Cloud Infrastructure is now set to ACTIVE
+
+![Data Safe Connector Active](images/data-safe-oc-active.png)
+
+```
+scp DataSafeOC.zip opc@<your_vm_ip_address>:/home/opc
+
+```
+
+```
+alias python='/usr/bin/python3.6'
+
+```
+
+![Register target](images/target-oc-success.png)
