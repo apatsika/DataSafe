@@ -49,9 +49,15 @@ VPN Connect in Oracle Cloud Infrastructure is a site-to-site IPSec virtual priva
 
 ## **STEP 3**: Download the Install Bundle for the On-Premises Connector
 
-You can download the install bundle for the on-premises connector from the Connector Detail page in the Oracle Data Safe service.
+Before we install the On-premise connector your host should have the following minimum requirements:
 
-1. From the Data Safe page in Oracle Cloud Infrastructure, click On-Premises Connectors.
+- Operating system: Oracle Linux 7 or higher
+- Python 3.5 or higher
+- Java version 7 or higher with a valid Java Home (JAVA_HOME)
+
+Download the install bundle for the on-premises connector from the Connector Detail page in the Oracle Data Safe service.
+
+1. From the Data Safe page in Oracle Cloud Infrastructure, click **On-Premises Connectors**.
 
 2. Click the on-premises connector that you created. The **Download Install Bundle** dialog box is displayed.
 
