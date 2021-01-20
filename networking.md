@@ -32,11 +32,10 @@ VPN Connect in Oracle Cloud Infrastructure is a site-to-site IPSec virtual priva
 
 ![Select Data Safe](images/data-safe-menu.png)
 
-
 2. Under Connectivity Options, click **On-Premises Connectors**.
 3. On the right, click **Create On-Premises Connector**. The Create On-Premises Connector page is displayed.
 
-    ![Create On-premise Connector](images/on-premise-connector-page.png)
+![Create On-premise Connector](images/on-premise-connector-page.png)
 
 4. Enter a name for the on-premises connector.
 5. (Optional) Enter a description for the on-premises connector.
@@ -78,6 +77,5 @@ python setup.py install --connector-port=1560
 8. The on-premises connector is installed in the current directory and automatically started. The status for the on-premises connector in the Oracle Data Safe service in Oracle Cloud Infrastructure is now set to **ACTIVE**
 
 ![Data Safe Connector Active](images/data-safe-oc-active.png)
-
 
 ###### Congratulations! You have successfully installed the Data Safe Connector. Next, continue to [register an on-premise target database](target-registration.md) with Data Safe
