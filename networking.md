@@ -36,7 +36,7 @@ VPN Connect in Oracle Cloud Infrastructure is a site-to-site IPSec virtual priva
 2. Under Connectivity Options, click **On-Premises Connectors**.
 3. On the right, click **Create On-Premises Connector**. The Create On-Premises Connector page is displayed.
 
-![Create On-premise Connector](images/on-premise-connector-page.png)
+    ![Create On-premise Connector](images/on-premise-connector-page.png)
 
 4. Enter a name for the on-premises connector.
 5. (Optional) Enter a description for the on-premises connector.
