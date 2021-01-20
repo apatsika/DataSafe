@@ -1,3 +1,3 @@
 # Register an On-premise Target Database
 
-Content goes here ...
+![Register target](images/target-oc-success.png)
