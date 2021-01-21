@@ -21,7 +21,6 @@ Using Oracle Data Safe's on-premises connector is an easy and convenient way to 
 ### **STEP 1**: Sign in to the Oracle Data Safe Console
 
 1. If you are already signed in to the Oracle Data Safe Console, click the **Oracle Data Safe** tab in your browser.
-
 2. If you are not signed in to the Oracle Data Safe Console, do the following:
 
     a) Click the browser tab named **Oracle Cloud Infrastructure**, and sign in to the Console if needed.
