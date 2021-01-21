@@ -3,7 +3,7 @@
 ## Introduction
 This lab shows you how to assess database configurations and users in your Database by using the Security Assessment and User Assessment features in Oracle Data Safe.
 
-Estimated Lab Time: **20 minutes**
+#### Estimated Lab Time: **20 minutes**
 
 ## Objectives
 
@@ -91,7 +91,6 @@ You can use Security Assessment to evaluate the current security state of your t
 
 ![Summary table in the Comprehensive Assessment report](images/comp-assess-accounts.png)
 
-
 5. Collapse **User Accounts** and expand **Privileges and Roles**. Review the list of findings.
 6. Scroll down and expand other categories. Each category lists related findings about your database and how you can make changes to improve its security.
 7. To filter the findings by risk level, scroll to the top of the report, and click a risk level.
@@ -103,15 +102,11 @@ You can use Security Assessment to evaluate the current security state of your t
 You can use the User Assessment feature to identify user settings and user risks on your target databases.
 
 1. Click the **Home** tab, and then click the **User Assessment** tab.
-
 2. On the **User Assessment** page, select the check box for your target database, and then click **Assess**.
 
-  ![User Assessment page](images/user-assessment-page.png)
+![User Assessment page](images/user-assessment.png)
 
 3. Wait a moment for the assessment to finish. The assessment takes approximately 10 seconds.
-
-
-
 
 ### **STEP 5**: Analyze the user assessment results
 
@@ -120,7 +115,7 @@ You can use the User Assessment feature to identify user settings and user risks
 
     - The page is updated to show the number of **Critical Risk**, **High Risk**, **Medium Risk**, and **Low Risk** users.
 
-    ![User Assessment page after assessment](images/user-assessment-completed.png)
+![User Assessment page after assessment](images/user-assess-result.png)
 
 
 2. In the **Last Generated Report** column, click **View Report**. The **Users** page is displayed.
