@@ -82,10 +82,9 @@ You can use Security Assessment to evaluate the current security state of your t
 2. Expand the **Summary** category (if needed).
   - Here you can view a table that compares the number of findings for each category in the report, and counts the number of findings per risk level. These values help you to identify areas that need attention.
 
-  ![Summary table in the Comprehensive Assessment report](images/summary-table-comprehensive-assessment-report.png)
+![Summary table in the Comprehensive Assessment report](images/comp-assess-summary.png)
 
 3. Expand **User Accounts** to view the list of findings that pertain to user accounts.
-
 4. Expand the subcategories and review the findings.
 
     - On the right, indicators show whether a finding is recommended by the Center for Internet Security (**CIS**), European Union's General Data Protection Regulation (**GDPR**), and/or Security Technical Implementation Guide (**STIG**). These indications make it easy for you to identify the recommended security controls.
