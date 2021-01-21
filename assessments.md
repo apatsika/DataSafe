@@ -39,9 +39,9 @@ To complete this lab, you need to have the following:
 
 1. If you are already signed in to the Oracle Data Safe Console, click the **Oracle Data Safe** tab in your browser.
 2. If you are not signed in to the Oracle Data Safe Console, do the following:
-    a) Click the browser tab named **Oracle Cloud Infrastructure**, and sign in to the Console if needed.
-    b) From the navigation menu, select **Data Safe**. The **Overview** page for the Oracle Data Safe service is displayed.
-    c) Click **Service Console**. The **Home** tab in the Oracle Data Safe Console is displayed.
+    - Click the browser tab named **Oracle Cloud Infrastructure**, and sign in to the Console if needed.
+    - From the navigation menu, select **Data Safe**. The **Overview** page for the Oracle Data Safe service is displayed.
+    - Click **Service Console**. The **Home** tab in the Oracle Data Safe Console is displayed.
 
 
 ### **STEP 2**: Schedule and run a Security Assessment job against your database
@@ -56,46 +56,33 @@ You can use Security Assessment to evaluate the current security state of your t
 3. In the **Schedule Assessment** dialog box, configure the schedule for every Sunday at 11:00 PM:
 
     a) From the **Schedule Type** drop-down list, select **Weekly**.
-
     b) From the **Every** drop-down list, select **Sunday**.
-
     c) In the **At** field, click the **Select Time** button. Select **11:00 PM**, and then click **OK**.
-
     d) Click **Schedule**. A confirmation messages states that the scheduled periodic job is successful.
 
 ![Schedule every Sunday](images/select-date-assessment.png)
 
-
 4. Deselect the check box for the target database, and select it again.
-
 5. Click **Assess Now**.
-
 6. Wait approximately one minute for the assessment to finish.
-
 7. When the job is finished, review the counts for high risk, medium risk, and low risk findings. The job generates a **Comprehensive Assessment** report.
 
-
 ![Security Assessment risk numbers](images/security-assessment-result.png)
-
 
 ### **STEP 3**: Analyze the security assessment results
 
 1. To view the **Comprehensive Assessment** report, in the **Last Generated Report** column, click **View Report**. The **Comprehensive Assessment** report is displayed.
-
-  At the top of the report, you can view the following:
-
+  - At the top of the report, you can view the following:
     - Target database name, when the database was assessed, and the database version
     - The total number of findings per risk level (**High Risk**, **Medium Risk**, **Low Risk**, **Advisory**, **Evaluate**, and **Pass**). These totals give you an idea of how secure your database is. The risk levels are color coded to make them easier to identify.
     - The total number of findings for **Security Controls**, **User Security**, and **Security Configurations**. These are high level categories in the report.
 
-  ![Totals in the Comprehensive Assessment report](images/totals-in-comprehensive-assessment-report.png)
-
+![Totals in the Comprehensive Assessment report](images/comp-assess.png)
 
 2. Expand the **Summary** category (if needed).
+  - Here you can view a table that compares the number of findings for each category in the report, and counts the number of findings per risk level. These values help you to identify areas that need attention.
 
-    - Here you can view a table that compares the number of findings for each category in the report, and counts the number of findings per risk level. These values help you to identify areas that need attention.
-
-    ![Summary table in the Comprehensive Assessment report](images/summary-table-comprehensive-assessment-report.png)
+  ![Summary table in the Comprehensive Assessment report](images/summary-table-comprehensive-assessment-report.png)
 
 3. Expand **User Accounts** to view the list of findings that pertain to user accounts.
 
