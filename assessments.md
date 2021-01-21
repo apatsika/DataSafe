@@ -29,25 +29,18 @@ To complete this lab, you need to have the following:
 ## Assumptions
 
 - You have a browser tab signed in to the Oracle Cloud Infrastructure Console. If not, please refer to the [Prerequisites](?lab=prerequisites) for this workshop.
-
 - You completed the following labs in this workshop:
-
     - [Provision and Register and Autonomous Database](?lab=lab-1-provision-register-autonomous)
     - [Provision Audit and Alert Policies](?lab=lab-2-provision-audit-alert-policies)
-
 - Your data values will be different than those shown in the screenshots in this lab.
 
 
 ### **STEP 1**: Sign in to the Oracle Data Safe Console
 
 1. If you are already signed in to the Oracle Data Safe Console, click the **Oracle Data Safe** tab in your browser.
-
 2. If you are not signed in to the Oracle Data Safe Console, do the following:
-
     a) Click the browser tab named **Oracle Cloud Infrastructure**, and sign in to the Console if needed.
-
     b) From the navigation menu, select **Data Safe**. The **Overview** page for the Oracle Data Safe service is displayed.
-
     c) Click **Service Console**. The **Home** tab in the Oracle Data Safe Console is displayed.
 
 
@@ -56,8 +49,6 @@ To complete this lab, you need to have the following:
 You can use Security Assessment to evaluate the current security state of your target databases and receive recommendations on how to mitigate the identified risks.
 
 1. Click the **Home** tab, and then click the **Security Assessment** tab.
-
-
 2. On the **Security Assessment** page, select the check box for your target database, and then click **Schedule Periodic Assessment**.
 
 ![Security Assessment page](images/periodic-assessment.png)
