@@ -125,7 +125,7 @@ You can use the User Assessment feature to identify user settings and user risks
 
     - The **User Risk** chart shows you the number and percentage of users who are **Critical Risk**, **High Risk**, **Medium Risk**, and **Low Risk**.
 
-    ![User Risk chart](images/user-risk-chart.png)
+    ![User Risk chart](images/user-risk.png)
 
     - The **User Roles** chart shows you the number of users with the **DBA**, **DV Admin**, and **Audit Admin** roles.
 
