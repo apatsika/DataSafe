@@ -89,19 +89,14 @@ You can use Security Assessment to evaluate the current security state of your t
 
     - On the right, indicators show whether a finding is recommended by the Center for Internet Security (**CIS**), European Union's General Data Protection Regulation (**GDPR**), and/or Security Technical Implementation Guide (**STIG**). These indications make it easy for you to identify the recommended security controls.
 
-    ![Summary table in the Comprehensive Assessment report](images/findings-user-accounts.png)
+![Summary table in the Comprehensive Assessment report](images/comp-assess-accounts.png)
 
 
 5. Collapse **User Accounts** and expand **Privileges and Roles**. Review the list of findings.
-
 6. Scroll down and expand other categories. Each category lists related findings about your database and how you can make changes to improve its security.
-
 7. To filter the findings by risk level, scroll to the top of the report, and click a risk level.
 
     - Each filter is a toggle. For example, if you click **Medium Risk**, only medium risk findings are displayed in the report. If you click **Medium Risk** again, the filter is removed.
-
-
-
 
 ### **STEP 4**: Run a User Assessment job against a target database
 
