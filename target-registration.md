@@ -49,4 +49,4 @@ Click **Register Target**.
 
 ![Register target](images/target-oc-success.png)
 
-<img src="images/target-oc-success.png" width="500" border="1"">
+<img src="images/target-oc-success.png" width="500" border="1">
