@@ -142,7 +142,7 @@ You can use the User Assessment feature to identify user settings and user risks
 
 4. Review the table below the charts. This table lets you quickly identify critical and high risk users, such as DBAs, DV Admins, and Audit Admins.
 
-  ![User Assessment table](images/user-table.png)
+  ![User Assessment table](images/user-assess-table.png)
 
 
 5. To view audit records for the `admin` user, do the following:
