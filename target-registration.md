@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="/css/style.css">
 # Register an On-premise Target Database
 
 ### Step 1: Create a Service Account for Data Safe
