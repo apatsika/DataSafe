@@ -48,3 +48,5 @@ Click **Register Target**.
 15. You cannot register the target database if the connection test fails or if the on-premises Oracle database does not exist.
 
 ![Register target](images/target-oc-success.png)
+
+<img src="images/target-oc-success.png" width="500">
