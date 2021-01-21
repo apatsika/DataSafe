@@ -61,3 +61,11 @@ The Data Discovery wizard generates a sensitive data model that contains sensiti
 6. On the Select Sensitive Data Model page, leave Create selected, enter SDM1 for the name, enable Show and save sample data, select your compartment, and then click Continue.
 
 ![Create Data Discovery Model](images/create-model.png)
+
+7. On the **Select Schemas for Sensitive Data Discovery** page, scroll down and select the HCM1 schema, and then click **Continue**.
+
+![Select the Schema for data discovery](images/hcm1.png)
+
+8. On the **Select Sensitive Types for Sensitive Data Discovery** page, expand all of the categories by moving the slider to the right, and then scroll down the page and review the sensitive types. Notice that you can select individual sensitive types, sensitive categories, and all sensitive types.
+
+![Select the Schema for data discovery](images/expand-sensitive-types.png)
