@@ -45,3 +45,19 @@ Review the query results.
 - Keep this tab open so that you can return to it later. In step 4, you compare the original query results with the masked data.
 
 ![Select all employees](images/select-all.png)
+
+### STEP 2: Discover sensitive data by using Data Discovery
+
+The Data Discovery wizard generates a sensitive data model that contains sensitive columns in your target database. When working in the wizard, you select the sensitive types that you want to discover in your target database.
+
+1. Return to the browser tab for the Oracle Cloud Infrastructure Console. If needed, sign in again.
+2. From the navigation menu, select **Data Safe**. The **Overview** page for the Oracle Data Safe service is displayed.
+3. Click **Service Console**. The **Home** page in the Oracle Data Safe Console is displayed.
+4. To access the Data Discovery wizard, click the **Data Discovery** tab.
+5. On the **Select Target for Sensitive Data Discovery** page, select your target database, and then click **Continue**.
+
+![Data Discovery Page](images/data-discovery.png)
+
+6. On the Select Sensitive Data Model page, leave Create selected, enter SDM1 for the name, enable Show and save sample data, select your compartment, and then click Continue.
+
+![Create Data Discovery Model](images/create-model.png)
