@@ -1,4 +1,5 @@
-<link rel="stylesheet" href="https://github.com/apatsika/DataSafe/blob/main/style.css">
+<link rel="stylesheet" href="style.css">
+
 # Register an On-premise Target Database
 
 ### Step 1: Create a Service Account for Data Safe
