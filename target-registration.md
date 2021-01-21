@@ -1,6 +1,18 @@
 # Register an On-premise Target Database
 
-### Step 1: Create a Service Account for Data Safe
+### **STEP 1**: Sign in to the Oracle Data Safe Console
+
+1. If you are already signed in to the Oracle Data Safe Console, click the **Oracle Data Safe** tab in your browser.
+
+2. If you are not signed in to the Oracle Data Safe Console, do the following:
+
+    a) Click the browser tab named **Oracle Cloud Infrastructure**, and sign in to the Console if needed.
+
+    b) From the navigation menu, select **Data Safe**. The **Overview** page for the Oracle Data Safe service is displayed.
+
+    c) Click **Service Console**. The **Home** tab in the Oracle Data Safe Console is displayed.
+
+### **Step 2:** Create a Service Account for Data Safe
 
 Before we register our database let create a Data Safe service account in our on-premise database.
 
@@ -17,9 +29,9 @@ GRANT CONNECT, RESOURCE TO DATASAFE_ADMIN;
 - Replace `DATASAFE_ADMIN` and password with your own values.
 - Do not use `SYSTEM` or `SYSAUX` as the default tablespace. You cannot mask data if you use these tablespaces.
 
-### Step 2. Grant Roles to the Service Account
+### **Step 3:** Grant Roles to the Service Account
 
-### Step 2: Register an On-Premises Oracle Database
+### **Step 4:** Register an On-Premises Oracle Database
 
 1. Sign in to the Oracle Data Safe Console.
 2. Click the **Targets** tab.

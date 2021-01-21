@@ -5,7 +5,7 @@ This lab shows you how to assess database configurations and users in your Datab
 
 Estimated Lab Time: **20 minutes**
 
-### Objectives
+## Objectives
 
 In this lab, you'll:
 
@@ -15,7 +15,7 @@ In this lab, you'll:
 - Run a User Assessment job against your database
 - Analyze the user assessment results
 
-### Prerequisites
+## Prerequisites
 
 To complete this lab, you need to have the following:
 
@@ -26,7 +26,7 @@ To complete this lab, you need to have the following:
 - Audit collection started on your target database in Oracle Data Safe.
 
 
-### Assumptions
+## Assumptions
 
 - You have a browser tab signed in to the Oracle Cloud Infrastructure Console. If not, please refer to the [Prerequisites](?lab=prerequisites) for this workshop.
 
@@ -38,7 +38,7 @@ To complete this lab, you need to have the following:
 - Your data values will be different than those shown in the screenshots in this lab.
 
 
-## **STEP 1**: Sign in to the Oracle Data Safe Console
+### **STEP 1**: Sign in to the Oracle Data Safe Console
 
 1. If you are already signed in to the Oracle Data Safe Console, click the **Oracle Data Safe** tab in your browser.
 
@@ -51,7 +51,7 @@ To complete this lab, you need to have the following:
     c) Click **Service Console**. The **Home** tab in the Oracle Data Safe Console is displayed.
 
 
-## **STEP 2**: Schedule and run a Security Assessment job against your database
+### **STEP 2**: Schedule and run a Security Assessment job against your database
 
 You can use Security Assessment to evaluate the current security state of your target databases and receive recommendations on how to mitigate the identified risks.
 
@@ -87,7 +87,7 @@ You can use Security Assessment to evaluate the current security state of your t
 ![Security Assessment risk numbers](images/security-assessment-result.png)
 
 
-## **STEP 3**: Analyze the security assessment results
+### **STEP 3**: Analyze the security assessment results
 
 1. To view the **Comprehensive Assessment** report, in the **Last Generated Report** column, click **View Report**. The **Comprehensive Assessment** report is displayed.
 
@@ -126,7 +126,7 @@ You can use Security Assessment to evaluate the current security state of your t
 
 
 
-## **STEP 4**: Run a User Assessment job against a target database
+### **STEP 4**: Run a User Assessment job against a target database
 
 You can use the User Assessment feature to identify user settings and user risks on your target databases.
 
@@ -141,7 +141,7 @@ You can use the User Assessment feature to identify user settings and user risks
 
 
 
-## **STEP 5**: Analyze the user assessment results
+### **STEP 5**: Analyze the user assessment results
 
 1. When the user assessment is completed, observe the following on the **User Assessment** page:
     - A green check mark is displayed in the **Last Generated Report** column.
@@ -171,8 +171,6 @@ You can use the User Assessment feature to identify user settings and user risks
     - The **Last Login** chart shows you the number and percentage of users that signed in to the database within the last 24 hours, within the last week, within the current month, within the current year, and a year ago or more.
 
     ![User Risk chart](images/last-login-chart.png)
-
-
 
 
 4. Review the table below the charts. This table lets you quickly identify critical and high risk users, such as DBAs, DV Admins, and Audit Admins.
