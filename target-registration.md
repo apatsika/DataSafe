@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="style.css">
-
 # Register an On-premise Target Database
 
 ### Step 1: Create a Service Account for Data Safe
@@ -48,5 +46,3 @@ Click **Register Target**.
 15. You cannot register the target database if the connection test fails or if the on-premises Oracle database does not exist.
 
 ![Register target](images/target-oc-success.png)
-
-<img src="images/target-oc-success.png" width="500" border="1">
