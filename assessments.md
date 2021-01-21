@@ -180,7 +180,7 @@ You can use the User Assessment feature to identify user settings and user risks
 
 ## Acknowledgements
 * **Author** - Jody Glover, Principal User Assistance Developer, Database Development
-* **Last Updated By/Date** - Jody Glover, November 3, 2020
+* **Updated By/Date** - Aubrey Patsika, January 12, 2020
 
 
 ## Need Help?
