@@ -129,15 +129,15 @@ You can use the User Assessment feature to identify user settings and user risks
 
     - The **User Roles** chart shows you the number of users with the **DBA**, **DV Admin**, and **Audit Admin** roles.
 
-    ![User Risk chart](images/user-roles-chart.png)
+    ![User Risk chart](images/user-roles.png)
 
     - The **Last Password Change** chart shows you the number and percentage of users who changed their passwords within the last 30 days, within the last 30-90 days, and 90 days ago or more.
 
-    ![User Risk chart](images/last-password-change-chart.png)
+    ![User Risk chart](images/last-password.png)
 
     - The **Last Login** chart shows you the number and percentage of users that signed in to the database within the last 24 hours, within the last week, within the current month, within the current year, and a year ago or more.
 
-    ![User Risk chart](images/last-login-chart.png)
+    ![User Risk chart](images/last-login.png)
 
 
 4. Review the table below the charts. This table lets you quickly identify critical and high risk users, such as DBAs, DV Admins, and Audit Admins.
