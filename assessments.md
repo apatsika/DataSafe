@@ -55,10 +55,10 @@ You can use Security Assessment to evaluate the current security state of your t
 
 3. In the **Schedule Assessment** dialog box, configure the schedule for every Sunday at 11:00 PM:
 
-  a) From the **Schedule Type** drop-down list, select **Weekly**.
-  b) From the **Every** drop-down list, select **Sunday**.
-  c) In the **At** field, click the **Select Time** button. Select **11:00 PM**, and then click **OK**.
-  d) Click **Schedule**. A confirmation messages states that the scheduled periodic job is successful.
+  - From the **Schedule Type** drop-down list, select **Weekly**.
+  - From the **Every** drop-down list, select **Sunday**.
+  - In the **At** field, click the **Select Time** button. Select **11:00 PM**, and then click **OK**.
+  - Click **Schedule**. A confirmation messages states that the scheduled periodic job is successful.
 
 ![Schedule every Sunday](images/select-date-assessment.png)
 
