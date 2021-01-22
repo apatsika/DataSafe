@@ -71,7 +71,6 @@ Download the install bundle for the on-premises connector from the Connector Det
 
 ```
 python setup.py install --connector-port=1560
-
 ```
 
 7. At the prompt, enter the password that you created when you downloaded the install bundle.
@@ -79,4 +78,4 @@ python setup.py install --connector-port=1560
 
 ![Data Safe Connector Active](images/data-safe-oc-active.png)
 
-###### Congratulations! You have successfully installed the Data Safe Connector. Next, continue to [register an on-premise target database](target-registration.md) with Data Safe
+**Congratulations!** You have successfully installed the Data Safe Connector. In the next lab, you'll [register an on-premise target database](target-registration.md) with Data Safe
