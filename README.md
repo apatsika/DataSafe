@@ -19,8 +19,8 @@ To successfully complete this workshop it is assumed you have the following
 ## Table of Contents
 
 - [Connecting to OCI](networking.md)
-- [Register a Target Database](target-registration.md)
-- [Provision Auditing](auditing.md)
+- [Register an On-premise Target Database](target-registration.md)
+- [Provision Auditing and Alert Policies](auditing.md)
 - [Assess Database Configuration and Users](assessments.md)
 - [Discover Sensitive Data](discovery.md)
 - [Mask Sensitive Data](masking.md)
