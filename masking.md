@@ -67,3 +67,51 @@ To complete this lab, you need to have the following:
 15. For the `HCM1.LOCATIONS.STREET_ADDRESS` column, click the arrow to the right of the masking format to view other masking formats.
 
 ![Masking formats dropdown](images/masking-formats.png)
+
+16. Next to the arrow, click the Edit Format button (pencil icon).
+
+![Edit Masking Format](images/edit-format.png)
+
+17. In the **Edit Format** dialog box, review the details for the masking format, including the datatype, description, examples, and default configuration. This is where you can modify a masking format, if needed. Click **Cancel**.
+
+ ![Edit Masking Format](images/edit-format-page.png)
+
+18. At the bottom of the page, click **Confirm Policy**.
+19. Wait a moment while Data Masking creates the masking policy.
+20. On the **Schedule the Masking Job** page, leave Right Now selected, and click **Review**.
+
+  ![Schedule Masking Job](images/schedule-masking-job.png)
+
+21. On the **Review and Submit** page, review the information, and then click **Submit** to start the data masking job.
+
+![Review and Submit Masking Job](images/review-submit.png)
+
+22. Wait for the data masking job to finish. It takes a couple of minutes. You can follow the status of the job on the Masking Jobs page.
+23. When the job is finished, click **Report**.
+
+![Masking Job Complete](images/masking-complete.png)
+
+24. Examine the **Data Masking** report.
+ - At the top of the report, you can view the number of masked values, masked sensitive types, masked tables, and masked columns.
+ - The table shows you column counts for the sensitive categories and types. For each sensitive column, you can view the masking format used and the number of rows masked.
+
+![Masking Job Report](images/masking-report.png)
+
+### **STEP 2:** Create a PDF of the Data Masking report
+
+1. At the top of the report, click **Generate Report**. The **Generate Report** dialog box is displayed.
+
+![Generate Masking Report](images/generate-report.png)
+
+2. Leave **PDF** selected.
+3. Enter **Mask1_HCM1** for the description.
+4. Select your compartment.
+5. Click **Generate Report** and wait for the report to generate.
+
+![Generate Masking Report Dialog](images/generate-report-page.png)
+
+6. When a confirmation message states that the **Report was generated successfully**, click **Download Report**.
+7. Save the report and then open it in Adobe Acrobat.
+8. Review the data, and then close the report.
+
+![Final data masking report](images/data-masking-report.png)
