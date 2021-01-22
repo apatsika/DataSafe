@@ -115,3 +115,20 @@ To complete this lab, you need to have the following:
 8. Review the data, and then close the report.
 
  ![Final data masking report](images/data-masking-report.png)
+
+### **STEP 5:** Validate the masked data in your database
+
+1. Return to SQL Developer. You should have a worksheet open from the previous lab.
+
+![Select all employees](images/select-all.png)
+
+2. Next, re-run the following statement
+
+```
+select * from HCM1.employees;
+```
+
+3. If you receive a message stating that your session has expired, click OK, sign in again, and then click the Run Statement button.
+4. Review the masked data. You can resize the panel to view more data, and you can scroll down and to the right.
+
+![Select all employees](images/masked-data.png)
