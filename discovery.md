@@ -105,3 +105,17 @@ The Data Discovery wizard generates a sensitive data model that contains sensiti
 17. Click the chart's **Expand** button.
 
   ![Select the Schema for data discovery](images/expand-chart.png)
+
+18. Position your mouse over Identification Info to view statistics.
+
+  ![Select the Schema for data discovery](images/identification.png)
+
+19. With your mouse still over Identification Info, click the Expand button to drill down.
+
+  ![Select the Schema for data discovery](images/identification-expand.png)
+
+20. Notice that the **Identification Info** category is divided into two smaller categories (**Personal IDs** and **Public IDs**). To drill-up, position your mouse over an expanded sensitive category (for example, **Identification Info**), and then click the **Collapse** button.
+
+  ![Select the Schema for data discovery](images/indentification-close.png)
+
+21. Click the **Close** button (**X**) to close the expanded chart. Continue to work in the wizard.
