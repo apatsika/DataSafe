@@ -69,3 +69,39 @@ The Data Discovery wizard generates a sensitive data model that contains sensiti
 8. On the **Select Sensitive Types for Sensitive Data Discovery** page, expand all of the categories by moving the slider to the right, and then scroll down the page and review the sensitive types. Notice that you can select individual sensitive types, sensitive categories, and all sensitive types.
 
 ![Select the Schema for data discovery](images/expand-sensitive-types.png)
+
+9. At the top of the page, select the **Select All** check box, and then click **Continue** to start the data discovery job.
+
+![Select the Schema for data discovery](images/select-all-sensitive.png)
+
+10. When the job is completed, ensure that the Detail column states Data discovery job finished successfully, and then click Continue.
+
+![Select the Schema for data discovery](images/discovery-finished.png)
+
+11. On the Sensitive Data Discovery Result page, examine the sensitive data model created by the Data Discovery wizard. Oracle Data Safe automatically saves your sensitive data model to the Oracle Data Safe Library.
+12. To view all of the sensitive columns, move the Expand All slider to the right.
+
+![Select the Schema for data discovery](images/expand-all-2.png)
+
+13. From the drop-down list, select Schema View to sort the sensitive columns by table name.
+
+![Select the Schema for data discovery](images/schema-view.png)
+
+14. Scroll down the page to view the sensitive columns.
+  - You can view sample data (if it's available for a sensitive column) and estimated data counts.
+  - In particular, take a look at the sensitive columns that Data Discovery found in the `EMPLOYEES` table. Columns that do not have a check mark, such as `MANAGER_ID`, are called referential relationships. They are included because they have a relationship to another sensitive column and that relationship is defined in the database's data dictionary.
+  - Review the sample data provided to get an idea of what the sensitive data looks like.
+
+ ![Select the Schema for data discovery](images/employees.png)
+
+15. To generate the **Data Discovery** report, scroll to the bottom of the page, and then click **Report**.
+16. Review the **Data Discovery report**.
+
+ - The chart compares sensitive categories. You can view totals of sensitive values, sensitive types, sensitive tables, and sensitive columns.
+ - The table displays individual sensitive column names, sample data for the sensitive columns, column counts based on sensitive categories, and estimated data counts.
+
+  ![Select the Schema for data discovery](images/sensitive-report.png)
+
+17. Click the chart's **Expand** button.
+
+  ![Select the Schema for data discovery](images/expand-chart.png)
