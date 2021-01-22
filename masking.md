@@ -108,10 +108,10 @@ To complete this lab, you need to have the following:
 4. Select your compartment.
 5. Click **Generate Report** and wait for the report to generate.
 
-![Generate Masking Report Dialog](images/generate-report-page.png)
+ ![Generate Masking Report Dialog](images/generate-report-page.png)
 
 6. When a confirmation message states that the **Report was generated successfully**, click **Download Report**.
 7. Save the report and then open it in Adobe Acrobat.
 8. Review the data, and then close the report.
 
-![Final data masking report](images/data-masking-report.png)
+ ![Final data masking report](images/data-masking-report.png)
