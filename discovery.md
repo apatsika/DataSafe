@@ -30,7 +30,7 @@ In this step, you use SQL Developer to query sensitive data in your database.
 alter session set container=<YOUR PDB NAME>
 ```
 
-Next, run the following statem statement
+Next, run the following statement
 
 ```
 select * from HCM1.employees;

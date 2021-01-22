@@ -128,7 +128,7 @@ To complete this lab, you need to have the following:
 select * from HCM1.employees;
 ```
 
-3. If you receive a message stating that your session has expired, click OK, sign in again, and then click the Run Statement button.
+3. If you receive a message stating that your session has expired, click OK, sign in again, and then re-ren the statement.
 4. Review the masked data. You can resize the panel to view more data, and you can scroll down and to the right.
 
 ![Select all employees](images/masked-data.png)
