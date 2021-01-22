@@ -4,7 +4,7 @@
 
 This lab shows you how to discover and mask sensitive data in your Autonomous Database by using the Data Discovery and Data Masking features in Oracle Data Safe.
 
-Estimated Lab Time: **30 minutes**
+Estimated Lab Time: **20 minutes**
 
 ## Objectives
 
