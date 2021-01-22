@@ -2,14 +2,11 @@
 
 There are various ways by which you can connect your on-premises location to Oracle Cloud Infrastructure OCI. You have a choice between FastConnect, IPSec VPN and the On-premise Connector.
 
-- **FastConnect**
-  FastConnect enables a private and dedicated connection your on-premise location and Oracle Cloud Infrastructure. FastConnect supports bandwidths from 1Gbps to 10Gbps. [Learn more about FastConnect](https://www.ateam-oracle.com/fastconnect-design)
+- **FastConnect:** FastConnect enables a private and dedicated connection your on-premise location and Oracle Cloud Infrastructure. FastConnect supports bandwidths from 1Gbps to 10Gbps. [Learn more about FastConnect](https://www.ateam-oracle.com/fastconnect-design)
 
-- **IPSec VPN**
-VPN Connect in Oracle Cloud Infrastructure is a site-to-site IPSec virtual private network that securely connects your on-premises network to Oracle Cloud Infrastructure, using your existing internet connection. VPN Connect is the easiest and fastest way to connect your on-premises network and your Oracle virtual cloud network (VCN) using IPSec tunnels over the internet. [Learn more about IPSec VPN](https://www.ateam-oracle.com/vpn-connect-simpe-implementation-part-12)
+- **IPSec VPN:** IPSec VPN is a site-to-site IPSec virtual private network that securely connects your on-premises network to Oracle Cloud Infrastructure, using your existing internet connection. VPN Connect is the easiest and fastest way to connect your on-premises network and your Oracle virtual cloud network (VCN) using IPSec tunnels over the internet. [Learn more about IPSec VPN](https://www.ateam-oracle.com/vpn-connect-simpe-implementation-part-12)
 
-- **On-premise Connector**
-  Data Safe's on-premises connector is an easy and convenient way to connect Oracle Data Safe to your on-premises Oracle database without needing FastConnect or VPN Connect. In steps below, you will learn how to download and install the on-premise connector on your on-premise host machine.
+- **Data Safe Connector:** The Data Safe connector is an easy and convenient way to connect Oracle Data Safe to your on-premises Oracle database without needing FastConnect or VPN Connect. In steps below, you will learn how to download and install the on-premise connector on your on-premise host machine.
 
 ### **STEP 1**: Sign in to the Oracle Data Safe Console
 
