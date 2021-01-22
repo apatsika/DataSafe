@@ -1,4 +1,4 @@
-# Discover and Mask Sensitive Data
+# Discover Sensitive Data
 
 ## Introduction
 
@@ -12,9 +12,6 @@ In this lab, you'll:
 
 - View sensitive data in your database
 - Discover sensitive data in your database by using the Data Discovery feature
-- Mask sensitive data in your database by using the Data Masking feature
-- Create a PDF of the Data Masking report
-- Validate the masked data in your database
 
 ## Prerequisites
 
