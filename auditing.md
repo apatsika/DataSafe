@@ -114,7 +114,7 @@ To complete this lab, you need the following:
 
 14. In the **Collect Audit Data From** column, click the calendar widget, configure a start date of 12 months ago, and then click **Done**.
 
-![Collection start date](images/pick-audit-date.png)
+ ![Collection start date](images/pick-audit-date.png)
 
 15. Wait for the **To Be Collected**, **Collected**, and **Total** columns to populate, review their values, and then click **Start** to start collecting audit data. Don't worry if your numbers are different than those shown in the screenshot below.
 
