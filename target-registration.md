@@ -15,12 +15,12 @@ Before we register our database let create a Data Safe service account in our on
 1. Log in to your target database with an account that lets you create a user.
 2. Create a user account with minimal privileges, for example:
 
-```
-CREATE USER DATASAFE_ADMIN identified by password
-DEFAULT TABLESPACE "DATA"
-TEMPORARY TABLESPACE "TEMP";
-GRANT CONNECT, RESOURCE TO DATASAFE_ADMIN;
-```
+  ```
+  CREATE USER DATASAFE_ADMIN identified by password
+  DEFAULT TABLESPACE "DATA"
+  TEMPORARY TABLESPACE "TEMP";
+  GRANT CONNECT, RESOURCE TO DATASAFE_ADMIN;
+  ```
 
 - Replace `DATASAFE_ADMIN` and password with your own values.
 - Do not use `SYSTEM` or `SYSAUX` as the default tablespace. You cannot mask data if you use these tablespaces.
