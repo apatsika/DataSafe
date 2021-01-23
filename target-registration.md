@@ -34,38 +34,38 @@ Before we register our database let create a Data Safe service account in our on
   ![Select Data Safe target](images/targets.png)
 
 2. From the **Targets** page click **Register**. The **Register Target** dialog will pop up.
+3. Click **Download Privilege Script**
 
   ![Download Privilege Script](images/download-script.png)
 
-3. The `datasafe_privileges.sql` is downloaded on your local computer. Click **Cancel** to exit the **Register Targets** dialog.
-4. With SQL Developer, connect to your database as `SYS` user and run the following script.
-
-5. From the SQL Developer menu to go File > Open.
+4. The `datasafe_privileges.sql` is downloaded on your local computer. Click **Cancel** to exit the **Register Targets** dialog.
+5. With SQL Developer, connect to your database as `SYS` user and run the following script.
+6. From the SQL Developer menu to go File > Open.
 
   ![Open File in SQL Developer](images/open-file.png)
 
-5. Locate your `datasafe_privileges.sql` script and open the file.
-Click Run the script.
+7. Locate your `datasafe_privileges.sql` script and open the file.
+Run the script.
 
   ![Open File in SQL Developer](images/open-script.png)
 
-6. On the **Select Connection** dialog, select your Database under connection then click **OK**.
+8. On the **Select Connection** dialog, select your Database under connection then click **OK**.
 
   ![Select Database Connection](images/select-connection.png)
 
-7. Enter the Data Safe User `DS$ADMIN` for the Value 1. `DS$ADMIN` is the name of the Oracle Data Safe service account that you created on your DB system. It is case-sensitive and must match the account name in the `dba_users` data dictionary view in your database. Click **Ok**.
+9. Enter the Data Safe User `DS$ADMIN` for the Value 1. `DS$ADMIN` is the name of the Oracle Data Safe service account that you created on your DB system. It is case-sensitive and must match the account name in the `dba_users` data dictionary view in your database. Click **Ok**.
 
   ![Select Value 1](images/value-1.png)
 
-8. You can `GRANT` or `REVOKE` depending on whether you want to add privileges to or remove privileges from the Oracle Data Safe service account. Type **Grant** for value 2
+10. You can `GRANT` or `REVOKE` depending on whether you want to add privileges to or remove privileges from the Oracle Data Safe service account. Type **Grant** for value 2
 
   ![Select Value 1](images/grant.png)
 
-9. You can assign `AUDIT_COLLECTION`, `AUDIT SETTING`, `DATA_DISCOVERY`, `MASKING`, `ASSESSMENT`, or `All`  privileges to the `DS$ADMIN` users. For the purposes of this workshop we will assign `All` the privileges. Type **All** for Value 3
+11. You can assign `AUDIT_COLLECTION`, `AUDIT SETTING`, `DATA_DISCOVERY`, `MASKING`, `ASSESSMENT`, or `All`  privileges to the `DS$ADMIN` users. For the purposes of this workshop we will assign `All` the privileges. Type **All** for Value 3
 
   ![Select Value 1](images/value-3.png)
 
-9. Your DS$AMIN user has now been granted the following privileges:
+12. Your DS$AMIN user has now been granted the following privileges:
 - `AUDIT_COLLECTION`
 - `AUDIT SETTING`
 - `DATA_DISCOVERY`
