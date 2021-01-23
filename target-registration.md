@@ -4,6 +4,7 @@
 
 1. If you are already signed in to the Oracle Data Safe Console, click the **Oracle Data Safe** tab in your browser.
 2. If you are not signed in to the Oracle Data Safe Console, do the following:
+
   a. Click the browser tab named **Oracle Cloud Infrastructure**, and sign in to the Console if needed.
   b. From the navigation menu, select **Data Safe**. The **Overview** page for the Oracle Data Safe service is displayed.
   c. Click **Service Console**. The **Home** tab in the Oracle Data Safe Console is displayed.
