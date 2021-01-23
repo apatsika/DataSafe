@@ -1,4 +1,4 @@
-# Connect your Database with On-premise Connector
+# Setup On-premise Connector
 
 There are various ways by which you can connect your on-premises location to Oracle Cloud Infrastructure OCI. You have a choice between FastConnect, IPSec VPN and the On-premise Connector.
 
