@@ -10,7 +10,7 @@ This workshop comprises various aspects of Data Security. So follow the given se
 
 ## Table of Contents
 
-- [Connecting to OCI](networking.md)
+- [Connect your database using On-premise Connector](networking.md)
 - [Register an On-premise Target Database](target-registration.md)
 - [Provision Auditing and Alert Policies](auditing.md)
 - [Assess Database Configuration and Users](assessments.md)
