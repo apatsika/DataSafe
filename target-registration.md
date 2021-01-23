@@ -55,6 +55,9 @@ Enter the database user name and password that you created on your on-premises O
 You cannot specify database roles, such as `SYSDBA` or `SYSKM`, and you cannot specify SYS as the user.
 15. (Optional) To verify that Oracle Data Safe can successfully connect to your on-premises Oracle database, click **Test Connection**.
 Click **Register Target**.
-15. You cannot register the target database if the connection test fails or if the on-premises Oracle database does not exist.
 
-![Register target](images/target-oc-success.png)
+ ![Register target](images/target-oc-success.png)
+
+16. You cannot register the target database if the connection test fails or if the on-premises Oracle database does not exist.
+
+ ![Register target](images/test-connection.png)
