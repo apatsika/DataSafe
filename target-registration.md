@@ -39,7 +39,7 @@ Before we register our database let create a Data Safe service account in our on
   ![Download Privilege Script](images/download-script.png)
 
 4. The `datasafe_privileges.sql` is downloaded on your local computer. Click **Cancel** to exit the **Register Targets** dialog.
-5. With SQL Developer, connect to your database as `SYS` user and run the following script.
+5. With SQL Developer, connect to your database as `SYS` user.
 6. From the SQL Developer menu to go File > Open.
 
   ![Open File in SQL Developer](images/open-file.png)
