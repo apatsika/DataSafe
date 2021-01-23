@@ -27,6 +27,34 @@ Before we register our database let create a Data Safe service account in our on
 
 ### **Step 3:** Grant Roles to the Service Account
 
+1. From the Data Safe menu click the **Targets** menu
+
+  ![Select Data Safe target](images/targets.png)
+
+2. From the **Targets** page click **Register**. The **Register Target** dialog will pop up.
+
+  ![Download Privilege Script](images/download-script.png)
+
+3. The `datasafe_privileges.sql` is downloaded on your local computer. Click **Cancel** to exit the **Register Targets** dialog.
+4. With SQL Developer, connect to your database as `SYS` user and run the following script:
+
+```
+@dscs_privileges.sql <DATASAFE_ADMIN> <GRANT/REVOKE> <AUDIT_COLLECTION/AUDIT_SETTING/DATA_DISCOVERY/MASKING/ASSESSMENT/ALL> [-VERBOSE]
+```
+
+- For the purposes of this lab we are going to grant all privileges
+
+```
+@dscs_privileges.sql DS$ADMIN grant ALL
+```
+- DS$ADMIN is the name of the Oracle Data Safe service account that you created on your DB system. It is case-sensitive and must match the account name in the dba_users data dictionary view in your database.
+- You can `GRANT` or `REVOKE` depending on whether you want to add privileges to or remove privileges from the Oracle Data Safe service account.
+
+
+
+
+
+
 ### **Step 4:** Register an On-Premises Oracle Database
 
 1. Sign in to the Oracle Data Safe Console.
