@@ -1,4 +1,4 @@
-# Data Safe for On-premise On-premise Databases Fundamentals
+# Data Safe for On-premise Oracle Databases
 
 ## Introduction
 
