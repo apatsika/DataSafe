@@ -6,7 +6,7 @@ There are various ways by which you can connect your on-premises location to Ora
 
 - **IPSec VPN:** IPSec VPN is a site-to-site IPSec virtual private network that securely connects your on-premises network to Oracle Cloud Infrastructure, using your existing internet connection. VPN Connect is the easiest and fastest way to connect your on-premises network and your Oracle virtual cloud network (VCN) using IPSec tunnels over the internet. [Learn more about IPSec VPN](https://www.ateam-oracle.com/vpn-connect-simpe-implementation-part-12)
 
-- **Data Safe Connector:** The Data Safe connector is an easy and convenient way to connect Oracle Data Safe to your on-premises Oracle database without needing FastConnect or VPN Connect. In steps below, you will learn how to download and install the on-premise connector on your on-premise host machine.
+- **Data Safe Connector:** The On-premise connector is an easy and convenient way to connect Oracle Data Safe to your on-premises Oracle database without needing FastConnect or VPN Connect. In steps below, you will learn how to download and install the on-premise connector on your on-premise host machine.
 
 ### **STEP 1**: Sign in to the Oracle Data Safe Console
 
@@ -66,6 +66,6 @@ python setup.py install --connector-port=1560
 7. At the prompt, enter the password that you created when you downloaded the install bundle.
 8. The on-premises connector is installed in the current directory and automatically started. The status for the on-premises connector in the Oracle Data Safe service in Oracle Cloud Infrastructure is now set to **ACTIVE**
 
-![Data Safe Connector Active](images/data-safe-oc-active.png)
+![On-premise Connector Active](images/data-safe-oc-active.png)
 
 **Congratulations!** You have successfully installed the Data Safe Connector. In the next lab, you'll [register an on-premise target database](target-registration.md) with Data Safe
