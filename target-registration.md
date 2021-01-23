@@ -88,7 +88,7 @@ Run the script.
 3. Click **Register**. The **Register Target** dialog box is displayed.
 4. Enter a name for your on-premises Oracle database. This name can be any name you want, and all characters are accepted. The maximum number of characters is 512.
 This name appears in all of the Oracle Data Safe reports that pertain to your target database.
-5. For target type, select Oracle On-Premises Database.
+5. For target type, select **Oracle On-Premises Database**.
 6. (Optional) Enter a description for your target database.
 7. Select the compartment to which you want your target database to belong.
 You can add a target database to only one compartment and you cannot change the compartment after the target database is registered.
