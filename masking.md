@@ -91,10 +91,6 @@ To complete this lab, you need to have the following:
 
 ![Masking Job Complete](images/masking-complete.png)
 
-dsjfsldkjfsdlkjl
-
-![New Image](images/masking-complete-siohfkjashksa.png)
-
 24. Examine the **Data Masking** report.
  - At the top of the report, you can view the number of masked values, masked sensitive types, masked tables, and masked columns.
  - The table shows you column counts for the sensitive categories and types. For each sensitive column, you can view the masking format used and the number of rows masked.
