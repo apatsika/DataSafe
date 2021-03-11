@@ -163,11 +163,17 @@ To complete this lab, you need the following:
 
 ## **STEP 5**: Auditing client host and IP Address
 
-1. Tracking client host in data safe console.
+1.Navigate to "reports->activity auditing->login activity" and click on "+" to add client host and client IP.
+
+![client IP](https://user-images.githubusercontent.com/67697503/110813189-46e0f380-82ae-11eb-9c73-d9a26c08f9e0.png)
+
+
+2. Tracking client host in data safe console.
+
 ![client_host](https://user-images.githubusercontent.com/67697503/110808455-03848600-82aa-11eb-89be-7692e639df7b.png)
 
 
-2. Tracking IP address in data safe console.
+3. Tracking IP address in data safe console.
 
 ![client IP](https://user-images.githubusercontent.com/67697503/110808540-172fec80-82aa-11eb-8321-1592f55b3526.png)
 
