@@ -161,7 +161,7 @@ To complete this lab, you need the following:
 ![managing_consolidate_jobs_3](https://user-images.githubusercontent.com/67697503/110808000-9a9d0e00-82a9-11eb-8f76-adb42aebabe7.png)
 
 
-## **STEP 5**: Review Dashboard
+## **STEP 5**: Auditing client host and IP Address
 
 1. Tracking client host in data safe console.
 ![client_host](https://user-images.githubusercontent.com/67697503/110808455-03848600-82aa-11eb-89be-7692e639df7b.png)
