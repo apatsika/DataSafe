@@ -167,7 +167,7 @@ To complete this lab, you need the following:
 ![client_host](https://user-images.githubusercontent.com/67697503/110808455-03848600-82aa-11eb-89be-7692e639df7b.png)
 
 
-2. Tracking I.P address in data safe console.
+2. Tracking IP address in data safe console.
 
 ![client IP](https://user-images.githubusercontent.com/67697503/110808540-172fec80-82aa-11eb-8321-1592f55b3526.png)
 
