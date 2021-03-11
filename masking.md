@@ -145,7 +145,8 @@ select * from HCM1.employees;
 
 3.Click on “Add” icon to add customized masking formats.
 
-![custom_masking_3](![custom_masking_3](https://user-images.githubusercontent.com/67697503/110800940-bb159a00-82a2-11eb-8ecb-5d6bcb4ea68f.png)
+![custom_masking_3](https://user-images.githubusercontent.com/67697503/110803867-a8e92b00-82a5-11eb-8494-9168b95b2daa.png)
+
 
 4."create masking format"
 
