@@ -146,7 +146,35 @@ To complete this lab, you need the following:
 
 ![Trail Log dialog box](images/audit-trail-log.png)
 
-## **STEP 4**: Review Dashboard
+## **STEP 4**: Managing Consolidated jobs/reports
+
+1. Navigate to "jobs" in data safe console to monitor.
+
+![managing_consolidate_jobs_1](https://user-images.githubusercontent.com/67697503/110807637-4134df00-82a9-11eb-82d3-40fb6dbfa18b.png)
+
+2. Navigate to "reports" in data safe console to monitor.
+
+![managing_consolidate_jobs_2](https://user-images.githubusercontent.com/67697503/110807864-73ded780-82a9-11eb-80ac-3e6adfe0474f.png)
+
+3. Navigate to "Audit summary" to find out alerts and activities.
+
+![managing_consolidate_jobs_3](https://user-images.githubusercontent.com/67697503/110808000-9a9d0e00-82a9-11eb-8f76-adb42aebabe7.png)
+
+
+## **STEP 5**: Review Dashboard
+
+1. Tracking client host in data safe console.
+![client_host](https://user-images.githubusercontent.com/67697503/110808455-03848600-82aa-11eb-89be-7692e639df7b.png)
+
+
+2. Tracking I.P address in data safe console.
+
+![client IP](https://user-images.githubusercontent.com/67697503/110808540-172fec80-82aa-11eb-8321-1592f55b3526.png)
+
+
+
+
+## **STEP 6**: Review Dashboard
 
 - Click the **Home** tab and review the dashboard. Notice that the **All Activity**, **Admin Activity**, **Open Alerts**, **Feature Usage**, and **Audit Trails** charts now have data.
 
