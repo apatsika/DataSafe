@@ -132,3 +132,56 @@ select * from HCM1.employees;
 4. Review the masked data. You can resize the panel to view more data, and you can scroll down and to the right.
 
 ![Select all employees](images/masked-data.png)
+
+### **STEP 6:** Create masking format
+
+1. Navigate to Library menu from Data safe home page.
+
+![custom_masking_1](https://user-images.githubusercontent.com/67697503/110800765-8acdfb80-82a2-11eb-971a-625df60578e7.png)
+
+2. Expand Data Masking drop down and look for masking formats.
+
+![custom_masking_2](![custom_masking_3](https://user-images.githubusercontent.com/67697503/110801219-ffa13580-82a2-11eb-8f5f-028d5b43d318.png)
+
+3.Click on “Add” icon to add customized masking formats.
+
+![custom_masking_3](![custom_masking_3](https://user-images.githubusercontent.com/67697503/110800940-bb159a00-82a2-11eb-8ecb-5d6bcb4ea68f.png)
+
+4."create masking format"
+
+![custom_masking_4](https://user-images.githubusercontent.com/67697503/110801757-8eae4d80-82a3-11eb-8d04-e58548de6c11.png)
+
+### **STEP 7:** Managing masking policy
+
+1.Navigate to "Library" and click on "Masking policies" below data masking in data safe console.
+
+![masking_policy_1](https://user-images.githubusercontent.com/67697503/110802520-43e10580-82a4-11eb-8c46-12309bf91afa.png)
+
+2.Click on "Mask 1" policy.
+
+![mask_1](https://user-images.githubusercontent.com/67697503/110802959-b520b880-82a4-11eb-98cd-923f6ddd9d31.png)
+
+3.Add sensitive columns.
+
+![masking_policy_2](https://user-images.githubusercontent.com/67697503/110803123-e0a3a300-82a4-11eb-9989-dc539f1b5c59.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
