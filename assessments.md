@@ -97,7 +97,22 @@ You can use Security Assessment to evaluate the current security state of your t
 
     - Each filter is a toggle. For example, if you click **Medium Risk**, only medium risk findings are displayed in the report. If you click **Medium Risk** again, the filter is removed.
 
-### **STEP 4**: Run a User Assessment job against a target database
+### **STEP 4**: Set Baseline for security assessment reports
+
+1.Navigate to assessed reports for Security Assessment. Click on set baseline if no baseline has been set.
+
+![baseline_1](https://user-images.githubusercontent.com/67697503/110805596-409b4900-82a7-11eb-904b-68d977098a45.png)
+
+2.Select report for baseline.
+
+![baseline_2](https://user-images.githubusercontent.com/67697503/110805678-54df4600-82a7-11eb-9c86-a45d59071513.png)
+
+3.Comparison report shows the deviation from baseline report. 
+
+![baseline_3](https://user-images.githubusercontent.com/67697503/110805781-6b859d00-82a7-11eb-9a83-201a7b9ba44b.png)
+
+
+### **STEP 5**: Run a User Assessment job against a target database
 
 You can use the User Assessment feature to identify user settings and user risks on your target databases.
 
@@ -108,7 +123,7 @@ You can use the User Assessment feature to identify user settings and user risks
 
 3. Wait a moment for the assessment to finish. The assessment takes approximately 10 seconds.
 
-### **STEP 5**: Analyze the user assessment results
+### **STEP 6**: Analyze the user assessment results
 
 1. When the user assessment is completed, observe the following on the **User Assessment** page:
     - A green check mark is displayed in the **Last Generated Report** column.
