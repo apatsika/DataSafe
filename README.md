@@ -14,7 +14,7 @@ Oracle Data Safe service provides a unified control center to manage the day-to-
 
 The following diagram illustrates this reference architecture.
 
-![Data Safe Connector Reference Architecture](images/data-safe-connection-managers.png.png)
+![Data Safe Connector Reference Architecture](images/data-safe-connection-managers.png)
 
 The customer data center has a two way flow of information between a Linux host and an Oracle Database. A TLS tunnel connects the Linux host with Connection Managers in Oracle Data Safe Service in Oracle Cloud Infrastructure.
 
