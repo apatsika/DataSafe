@@ -16,6 +16,11 @@ The following diagram illustrates this reference architecture.
 
 ![Data Safe Connector Reference Architecture](images/data-safe-connection-managers.png)
 
+### Components
+
+- Oracle Database VM
+- Bastion Host VM
+
 The customer data center has a two way flow of information between a Linux host and an Oracle Database. A TLS tunnel connects the Linux host with Connection Managers in Oracle Data Safe Service in Oracle Cloud Infrastructure.
 
 The Oracle Cloud Infrastructure region has a Tenancy with Oracle Site Guard Cloud Service, Oracle Cloud Infrastructure Identity and Access Management, and Security Zones. The Tenancy has one availability domain and a VCN with an Internet Gateway. Oracle Data Safe and the Connection Managers are located inside a private subnet in the VCN.
